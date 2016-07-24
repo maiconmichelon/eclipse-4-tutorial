@@ -38,7 +38,13 @@ public class TodoPlaygroundPart {
 					return;
 				}
 				try {
-					browser.setUrl("https://www.google.com/maps/place/" + URLEncoder.encode(city, "UTF-8") + "/&output=embed");
+					// not supported at the moment by Google
+					// browser.setUrl("http://maps.google.com/maps?q="
+					// + URLEncoder.encode(city, "UTF-8")
+					// + "&output=embed");
+					browser.setUrl(
+							"https://www.google.com/maps/place/" + URLEncoder.encode(city, "UTF-8") + "/&output=embed");
+
 				} catch (UnsupportedEncodingException e1) {
 					e1.printStackTrace();
 				}

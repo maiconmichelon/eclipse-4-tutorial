@@ -39,6 +39,7 @@ public class TodoPlaygroundPart {
 				}
 				try {
 					browser.setUrl("https://www.google.com/maps/place/" + URLEncoder.encode(city, "UTF-8") + "/&output=embed");
+
 				} catch (UnsupportedEncodingException e1) {
 					e1.printStackTrace();
 				}

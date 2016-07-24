@@ -5,14 +5,14 @@
       <children xsi:type="advanced:Perspective" xmi:id="_m0bf4FFHEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.perspective.to-do" label="To-do">
         <children xsi:type="basic:PartSashContainer" xmi:id="_6MMl0FFHEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.partsashcontainer.main" horizontal="true">
           <children xsi:type="basic:PartStack" xmi:id="_CPpe4FFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.partstack.0">
-            <children xsi:type="basic:Part" xmi:id="_5KliYFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.overview" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoOverviewPart" label="Overview"/>
+            <children xsi:type="basic:Part" xmi:id="_5KliYFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.overview" label="Overview"/>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_C7YjgFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.partsashcontainer.0">
             <children xsi:type="basic:PartStack" xmi:id="_Dn2n8FFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.partstack.1">
-              <children xsi:type="basic:Part" xmi:id="_ZEP4EFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.tododetails" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details"/>
+              <children xsi:type="basic:Part" xmi:id="_ZEP4EFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.tododetails" label="Details"/>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_EJgjgFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.partstack.2">
-              <children xsi:type="basic:Part" xmi:id="_bo5mIFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.playground" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.parts.TodoPlaygroundPart" label="Playground"/>
+              <children xsi:type="basic:Part" xmi:id="_bo5mIFFIEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.part.playground" label="Playground"/>
             </children>
           </children>
         </children>
