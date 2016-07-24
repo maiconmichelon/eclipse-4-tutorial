@@ -1,0 +1,14 @@
+package com.example.e4.rcp.todo;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ExitHandlerTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
