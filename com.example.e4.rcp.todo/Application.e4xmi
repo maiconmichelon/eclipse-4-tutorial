@@ -29,6 +29,11 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_LsYBkFFUEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.handledmenuitem.test" command="_f0lX4FFSEeacxuOVPhYhIw"/>
       </children>
     </mainMenu>
+    <trimBars xmi:id="_qmCygFFWEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_0nQ_0FFWEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_4leh0FFWEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.handledtoolitem.save" label="Save" command="_cSwP4FFSEeacxuOVPhYhIw"/>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="_G6RZ8FFTEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.handler.saveAll" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.handler.SaveAllHandler" command="_cSwP4FFSEeacxuOVPhYhIw"/>
   <handlers xmi:id="_NN-zsFFTEeacxuOVPhYhIw" elementId="com.example.e4.rcp.todo.handler.exit" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.handler.ExitHandler" command="_fhpNwFFSEeacxuOVPhYhIw"/>
